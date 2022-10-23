@@ -11,6 +11,9 @@ public class OceanGrid : MonoBehaviour
     public int xOffset, yOffset;
     public float xScale, yScale;
     private float[][] specStorage;
+    public static float lowvolumeHeight;
+    public static float midvolumeHeight;
+    public static float highvolumeHeight;
     // Start is called before the first frame update
     private void Start()
     {
@@ -36,8 +39,24 @@ public class OceanGrid : MonoBehaviour
         float[] spectrum = AudioInput.spectrum;
         spectrum.CopyTo(specStorage[count % ySize], 0);
         count++;
-
-
+        float vH = 0 ;
+        for (int i = 0; i <= 30; i++)
+        {
+            vH += Mathf.Sqrt(Mathf.Sqrt(specStorage[3][80 + i])) * 10;
+        }
+        lowvolumeHeight = vH / 30;
+        vH = 0;
+        for (int i = 0; i <= 30; i++)
+        {
+            vH += Mathf.Sqrt(Mathf.Sqrt(specStorage[3][220 + i])) * 10;
+        }
+        midvolumeHeight = vH / 70;
+        vH = 0;
+        for (int i = 0; i <= 70; i++)
+        {
+            vH += Mathf.Sqrt(Mathf.Sqrt(specStorage[3][320 + i])) * 10;
+        }
+        highvolumeHeight = vH / 70;
 
         //store spectrum history in 
 
@@ -51,7 +70,7 @@ public class OceanGrid : MonoBehaviour
                 }
                 else
                 {
-                    vertices[i] = new Vector3(vertices[i].x, Mathf.Sqrt(specStorage[y][x]) * 10, fixedVertices[i].z);
+                    vertices[i] = new Vector3(vertices[i].x, Mathf.Sqrt(Mathf.Sqrt(specStorage[y][x])) * 10, fixedVertices[i].z);
                 }
             }
 
@@ -113,7 +132,7 @@ public class OceanGrid : MonoBehaviour
         Gizmos.color = Color.black;
         for (int i = 0; i < vertices.Length; i++)
         {
-            Gizmos.DrawSphere(vertices[i], 0.1f);
+            Gizmos.DrawSphere(vertices[i], 0.01f);
         }
     }
 }

@@ -6,6 +6,10 @@ TagManager:
   tags:
   - upper
   - lower
+  - Highs
+  - Mids
+  - Lows
+  - Background
   layers:
   - Default
   - TransparentFX

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using System;
 
 public class MouthRotation : MonoBehaviour
 {
@@ -32,7 +33,21 @@ public class MouthRotation : MonoBehaviour
         {
             x = -1;
         }
-        this.transform.localEulerAngles = new Vector3(x * 17.677f * volume, 0, 0);
+        float scaler = 1;
+        if (this.parent.gameObject.CompareTag("Highs"))
+        {
+
+        }
+        if (this.parent.gameObject.CompareTag("Mids"))
+        {
+
+        }
+        if (this.parent.gameObject.CompareTag("Lows"))
+        {
+
+        }
+
+        this.transform.localEulerAngles = new Vector3(x * 25.677f * volume, 0, 0);
 
 
 
