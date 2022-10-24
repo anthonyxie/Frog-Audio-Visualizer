@@ -18,16 +18,15 @@ public class OceanGrid : MonoBehaviour
     private void Start()
     {
         Generate();
-        specStorage = new float[ySize][];
+        specStorage = new float[ySize - 1][];
         for (int i = 0; i < specStorage.Length; i++)
         {
-            specStorage[i] = new float[xSize];
+            specStorage[i] = new float[xSize - 1];
         }
         Debug.Log("started");
     }
 
     // Update is called once per frame
-    private int count = 0;
     void Update()
     {
         float[] wf = AudioInput.waveform;
@@ -37,26 +36,19 @@ public class OceanGrid : MonoBehaviour
             volume = 0f;
         }
         float[] spectrum = AudioInput.spectrum;
-        spectrum.CopyTo(specStorage[count % ySize], 0);
-        count++;
-        float vH = 0 ;
-        for (int i = 0; i <= 30; i++)
+
+
+        
+        for (int i = specStorage.Length - 1; i > 0; i--)
         {
-            vH += Mathf.Sqrt(Mathf.Sqrt(specStorage[3][80 + i])) * 10;
+            specStorage[i - 1].CopyTo(specStorage[i], 0);
         }
-        lowvolumeHeight = vH / 30;
-        vH = 0;
-        for (int i = 0; i <= 30; i++)
-        {
-            vH += Mathf.Sqrt(Mathf.Sqrt(specStorage[3][220 + i])) * 10;
-        }
-        midvolumeHeight = vH / 70;
-        vH = 0;
-        for (int i = 0; i <= 70; i++)
-        {
-            vH += Mathf.Sqrt(Mathf.Sqrt(specStorage[3][320 + i])) * 10;
-        }
-        highvolumeHeight = vH / 70;
+        spectrum.CopyTo(specStorage[0], 0);
+
+
+        floatHeightCalc();
+
+
 
         //store spectrum history in 
 
@@ -64,13 +56,13 @@ public class OceanGrid : MonoBehaviour
         {
             for (int x = 0; x <= xSize; x++, i++)
             {
-                if (y == ySize || x == xSize)
+                if ((y == ySize || y == 0) || (x == xSize || x == 0))
                 {
-                    vertices[i] = new Vector3(vertices[i].x, 0, fixedVertices[i].z);
+                    vertices[i] = new Vector3(fixedVertices[i].x, 0, fixedVertices[i].z);
                 }
                 else
                 {
-                    vertices[i] = new Vector3(vertices[i].x, Mathf.Sqrt(Mathf.Sqrt(specStorage[y][x])) * 10, fixedVertices[i].z);
+                    vertices[i] = new Vector3(fixedVertices[i].x, Mathf.Sqrt(Mathf.Sqrt(specStorage[y - 1][x - 1])) * 10, fixedVertices[i].z);
                 }
             }
 
@@ -134,5 +126,27 @@ public class OceanGrid : MonoBehaviour
         {
             Gizmos.DrawSphere(vertices[i], 0.01f);
         }
+    }
+
+    private void floatHeightCalc()
+    {
+        float vH = 0;
+        for (int i = 0; i <= 30; i++)
+        {
+            vH += Mathf.Sqrt(Mathf.Sqrt(specStorage[4][80 + i])) * 10;
+        }
+        lowvolumeHeight = vH / 30;
+        vH = 0;
+        for (int i = 0; i <= 50; i++)
+        {
+            vH += Mathf.Sqrt(Mathf.Sqrt(specStorage[4][220 + i])) * 10;
+        }
+        midvolumeHeight = vH / 50;
+        vH = 0;
+        for (int i = 0; i <= 30; i++)
+        {
+            vH += Mathf.Sqrt(Mathf.Sqrt(specStorage[4][320 + i])) * 10;
+        }
+        highvolumeHeight = vH / 30;
     }
 }

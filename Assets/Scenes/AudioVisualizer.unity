@@ -1998,7 +1998,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 49
+  field of view: 48.1
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -2215,6 +2215,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1128881384}
+  - component: {fileID: 1128881385}
   m_Layer: 0
   m_Name: FROG 2
   m_TagString: Mids
@@ -2240,6 +2241,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 24.47, z: 0}
+--- !u!114 &1128881385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1128881381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 095810c95ac034942898c7ee7f7b01a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1163443183
 GameObject:
   m_ObjectHideFlags: 0
@@ -2249,6 +2262,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1163443184}
+  - component: {fileID: 1163443185}
   m_Layer: 0
   m_Name: FROG 1
   m_TagString: Highs
@@ -2274,6 +2288,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1163443185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163443183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 095810c95ac034942898c7ee7f7b01a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1197957810
 GameObject:
   m_ObjectHideFlags: 0
@@ -2385,12 +2411,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ec823d0d2cb9604c8c92d3e90c2afba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xSize: 512
-  ySize: 16
+  xSize: 513
+  ySize: 9
   xOffset: -256
-  yOffset: -8
+  yOffset: -4
   xScale: 0.05
-  yScale: 1
+  yScale: 2
 --- !u!1 &1216406619
 GameObject:
   m_ObjectHideFlags: 0
@@ -2757,6 +2783,62 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1277878196}
   m_Mesh: {fileID: 4300000, guid: e60e01b41f95e9e42b12bc010b64efb4, type: 3}
+--- !u!1 &1305277533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1305277535}
+  - component: {fileID: 1305277534}
+  m_Layer: 0
+  m_Name: FrogOpera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1305277534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305277533}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b16f7529a0ae6842bac0c7cbc7fd7b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frogFab: {fileID: 4847154142545414121, guid: c14313ff0ebb74e4f833d15fbdbf1d56, type: 3}
+  frogList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  isActive: 0
+  first: 1
+--- !u!4 &1305277535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1305277533}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 8, z: 8.07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1390180421
 GameObject:
   m_ObjectHideFlags: 0
@@ -3576,12 +3658,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1739524829}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 13.08}
-  m_LocalScale: {x: 10.19, y: 1, z: 3.73}
+  m_LocalPosition: {x: 0, y: 0, z: 17}
+  m_LocalScale: {x: 10.19, y: 1, z: 5.99}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1755730303
 GameObject:
@@ -3889,6 +3971,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1899715433}
   - component: {fileID: 1899715434}
+  - component: {fileID: 1899715435}
   m_Layer: 0
   m_Name: FROG 3
   m_TagString: Lows
@@ -3930,6 +4013,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1899715435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899715430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 095810c95ac034942898c7ee7f7b01a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1909302260
 GameObject:
   m_ObjectHideFlags: 0

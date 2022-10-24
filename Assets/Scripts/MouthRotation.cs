@@ -33,21 +33,21 @@ public class MouthRotation : MonoBehaviour
         {
             x = -1;
         }
-        float scaler = 1;
-        if (this.parent.gameObject.CompareTag("Highs"))
+        float scaler = 1f;
+        if (this.transform.parent.gameObject.CompareTag("Highs"))
         {
-
+            scaler = 1f;
         }
-        if (this.parent.gameObject.CompareTag("Mids"))
+        if (this.transform.parent.gameObject.CompareTag("Mids"))
         {
-
+            scaler = 1f;
         }
-        if (this.parent.gameObject.CompareTag("Lows"))
+        if (this.transform.parent.gameObject.CompareTag("Lows"))
         {
-
+            scaler = 1f;
         }
 
-        this.transform.localEulerAngles = new Vector3(x * 25.677f * volume, 0, 0);
+        this.transform.localEulerAngles = new Vector3(scaler * x * 25.677f * volume, 0, 0);
 
 
 
