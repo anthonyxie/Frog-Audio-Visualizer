@@ -18,7 +18,7 @@ public class FrogMotion : MonoBehaviour
         float[] spectrum = AudioInput.spectrum;
         float height = spectrum.Sum();
         if (this.gameObject.CompareTag("Highs")) {
-            this.transform.localPosition = new Vector3(this.transform.localPosition.x,  1.71f + OceanGrid.midvolumeHeight * 1.3f, this.transform.localPosition.z);
+            this.transform.localPosition = new Vector3(this.transform.localPosition.x,  1.71f + OceanGrid.midvolumeHeight * 1.1f, this.transform.localPosition.z);
         }
         else if (this.gameObject.CompareTag("Mids"))
         {
@@ -26,7 +26,7 @@ public class FrogMotion : MonoBehaviour
         }
         else if (this.gameObject.CompareTag("Lows"))
         {
-            this.transform.localPosition = new Vector3(this.transform.localPosition.x,  2.46f + OceanGrid.lowvolumeHeight * 1f, this.transform.localPosition.z);
+            this.transform.localPosition = new Vector3(this.transform.localPosition.x,  2.46f + OceanGrid.lowvolumeHeight * 1.1f, this.transform.localPosition.z);
         }
 
     }
