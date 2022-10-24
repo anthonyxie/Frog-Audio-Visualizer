@@ -14,21 +14,49 @@ public class MouthRotation : MonoBehaviour
     }
     private float max = 0;
     // Update is called once per frame
+    private float[] lowBin = new float[64];
+    private float[] midBin = new float[256];
+    private float[] highBin = new float[192];
+    public static float lower;
+    public static float midder;
+    public static float higher;
     void Update()
     {
         float[] wf = AudioInput.waveform;
         float[] spectrum = AudioInput.spectrum;
+
+
+        
+        for (int i = 0; i < spectrum.Length; i++)
+        {
+            if (i < 64)
+            {
+                lowBin[i] = spectrum[i];
+            }
+            else if (i < 320)
+            {
+                midBin[i - 64] = spectrum[i];
+            }
+            else
+            {
+                highBin[i - 320] = spectrum[i];
+            }
+        }
+        lower = Mathf.Sqrt(lowBin.Sum());
+        midder = Mathf.Sqrt(midBin.Sum());
+        higher = Mathf.Sqrt(highBin.Sum());
+        Debug.Log("Low");
+        Debug.Log(lower);
+        Debug.Log("Mid");
+        Debug.Log(midder);
+        Debug.Log("High");
+        Debug.Log(higher);
         if (spectrum.Max() - spectrum.Min() > max)
         {
             max = spectrum.Max() - spectrum.Min();
-            Debug.Log(max);
         }
         float volume = wf.Max() - wf.Min();
         float x = 1;
-        if (volume < 0.07)
-        {
-            volume = 0;
-        }
         if (this.gameObject.CompareTag("lower"))
         {
             x = -1;
@@ -36,18 +64,18 @@ public class MouthRotation : MonoBehaviour
         float scaler = 1f;
         if (this.transform.parent.gameObject.CompareTag("Highs"))
         {
-            scaler = 1f;
+            scaler = Mathf.Sqrt(higher * 4.2f);
         }
         if (this.transform.parent.gameObject.CompareTag("Mids"))
         {
-            scaler = 1f;
+            scaler = Mathf.Sqrt(midder * 1.2f);
         }
         if (this.transform.parent.gameObject.CompareTag("Lows"))
         {
-            scaler = 1f;
+            scaler = Mathf.Sqrt(lower * 1.1f);
         }
 
-        this.transform.localEulerAngles = new Vector3(scaler * x * 25.677f * volume, 0, 0);
+        this.transform.localEulerAngles = new Vector3((scaler * x * 25.677f * volume), 0, 0);
 
 
 

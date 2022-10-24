@@ -23,7 +23,7 @@ public class OceanGrid : MonoBehaviour
         {
             specStorage[i] = new float[xSize - 1];
         }
-        Debug.Log("started");
+
     }
 
     // Update is called once per frame
@@ -131,11 +131,11 @@ public class OceanGrid : MonoBehaviour
     private void floatHeightCalc()
     {
         float vH = 0;
-        for (int i = 0; i <= 30; i++)
+        for (int i = 0; i <= 40; i++)
         {
-            vH += Mathf.Sqrt(Mathf.Sqrt(specStorage[4][80 + i])) * 10;
+            vH += Mathf.Sqrt(Mathf.Sqrt(specStorage[4][30 + i])) * 10;
         }
-        lowvolumeHeight = vH / 30;
+        lowvolumeHeight = vH / 40;
         vH = 0;
         for (int i = 0; i <= 50; i++)
         {

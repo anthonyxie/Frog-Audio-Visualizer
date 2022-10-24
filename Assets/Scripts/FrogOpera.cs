@@ -35,6 +35,7 @@ public class FrogOpera : MonoBehaviour
                     x += xIncrement;
                     frog.name = "bin" + i;
                     //set as child of this waveform
+                    frog.transform.localEulerAngles = new Vector3(0, 10f * (i - 4), 0);
                     frog.transform.localScale = new Vector3(2f, 2f, 2f);
                     frog.transform.parent = this.transform;
                     frogList[i] = frog;

@@ -26,7 +26,7 @@ public class FrogMotion : MonoBehaviour
         }
         else if (this.gameObject.CompareTag("Lows"))
         {
-            this.transform.localPosition = new Vector3(this.transform.localPosition.x,  2.46f + OceanGrid.lowvolumeHeight * 0.8f, this.transform.localPosition.z);
+            this.transform.localPosition = new Vector3(this.transform.localPosition.x,  2.46f + OceanGrid.lowvolumeHeight * 1f, this.transform.localPosition.z);
         }
 
     }

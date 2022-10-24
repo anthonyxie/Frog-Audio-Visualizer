@@ -18,6 +18,7 @@ public class Grid : MonoBehaviour
 
 
     // Update is called once per frame
+    private float freqScaling;
     void Update()
     {
         float[] wf = AudioInput.waveform;
@@ -27,11 +28,24 @@ public class Grid : MonoBehaviour
             volume = 0f;
         }
 
+        freqScaling = 0;
+        if (this.transform.parent.gameObject.CompareTag("Highs"))
+        {
+            freqScaling = Mathf.Sqrt(MouthRotation.higher * 2.2f);
+        }
+        if (this.transform.parent.gameObject.CompareTag("Mids"))
+        {
+            freqScaling = Mathf.Sqrt(MouthRotation.midder * 1.2f);
+        }
+        if (this.transform.parent.gameObject.CompareTag("Lows"))
+        {
+            freqScaling = Mathf.Sqrt(MouthRotation.lower * 1.1f);
+        }
         for (int i = 0, y = 0; y <= ySize; y++)
         {
             for (int x = 0; x <= xSize; x++, i++)
             {
-                float n = 0.5f + Mathf.Sqrt(volume / 2f);
+                float n = 0.5f + Mathf.Sqrt(volume / 2f) + (freqScaling / 6);
                 vertices[i] = new Vector3(vertices[i].x, xScale * wf[i] * 8, n * fixedVertices[i].z);
             }
 

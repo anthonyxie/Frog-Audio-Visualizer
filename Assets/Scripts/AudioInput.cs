@@ -10,6 +10,7 @@ public class AudioInput : MonoBehaviour
     public static float[] waveform = new float[1024];
     public static float[] spectrum = new float[512];
     public bool useMicrophone = true;
+    public AudioClip audioClip;
 
 
 
@@ -27,9 +28,18 @@ public class AudioInput : MonoBehaviour
 
                 // set microphone as an audio clip
                 theAudioSource.clip = Microphone.Start(selectedDevice, true, 1, AudioSettings.outputSampleRate);
+
+
+
                 //latency reduction, uhhhhhhhhhhh what is this doing
                 while (!(Microphone.GetPosition(selectedDevice) > 0)) { }
+
+                
             }
+        }
+        else
+        {
+            theAudioSource.clip = audioClip;
         }
         theAudioSource.Play();
     }
