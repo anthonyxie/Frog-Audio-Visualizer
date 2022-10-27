@@ -29,13 +29,13 @@ public class OceanGrid : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float[] wf = AudioInput.waveform;
+        float[] wf = ChunityAudioInput.the_waveform;
         float volume = wf.Max() - wf.Min();
         if (volume < 0.1)
         {
             volume = 0f;
         }
-        float[] spectrum = AudioInput.spectrum;
+        float[] spectrum = ChunityAudioInput.the_spectrum;
 
 
         
@@ -68,11 +68,6 @@ public class OceanGrid : MonoBehaviour
 
             mesh.vertices = vertices;
         }
-        GetComponent<MeshCollider>().sharedMesh = null;
-        GetComponent<MeshCollider>().sharedMesh = mesh;
-
-        GetComponent<MeshCollider>().sharedMesh = null;
-        GetComponent<MeshCollider>().sharedMesh = mesh;
     }
 
     private Vector3[] vertices;
@@ -110,8 +105,6 @@ public class OceanGrid : MonoBehaviour
         }
         mesh.triangles = triangles;
         mesh.RecalculateNormals();
-        GetComponent<MeshCollider>().sharedMesh = null;
-        GetComponent<MeshCollider>().sharedMesh = mesh;
     }
 
     private void OnDrawGizmos()

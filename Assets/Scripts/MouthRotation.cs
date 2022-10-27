@@ -20,10 +20,11 @@ public class MouthRotation : MonoBehaviour
     public static float lower;
     public static float midder;
     public static float higher;
+    public static float volume;
     void Update()
     {
-        float[] wf = AudioInput.waveform;
-        float[] spectrum = AudioInput.spectrum;
+        float[] wf = ChunityAudioInput.the_waveform;
+        float[] spectrum = ChunityAudioInput.the_spectrum;
 
 
         
@@ -45,17 +46,12 @@ public class MouthRotation : MonoBehaviour
         lower = Mathf.Sqrt(lowBin.Sum());
         midder = Mathf.Sqrt(midBin.Sum());
         higher = Mathf.Sqrt(highBin.Sum());
-        Debug.Log("Low");
-        Debug.Log(lower);
-        Debug.Log("Mid");
-        Debug.Log(midder);
-        Debug.Log("High");
-        Debug.Log(higher);
+
         if (spectrum.Max() - spectrum.Min() > max)
         {
             max = spectrum.Max() - spectrum.Min();
         }
-        float volume = wf.Max() - wf.Min();
+        volume = wf.Max() - wf.Min();
         float x = 1;
         if (this.gameObject.CompareTag("lower"))
         {
@@ -64,15 +60,15 @@ public class MouthRotation : MonoBehaviour
         float scaler = 1f;
         if (this.transform.parent.gameObject.CompareTag("Highs"))
         {
-            scaler = Mathf.Sqrt(higher * 4.2f);
+            scaler = Mathf.Sqrt(higher * 6.2f);
         }
         if (this.transform.parent.gameObject.CompareTag("Mids"))
         {
-            scaler = Mathf.Sqrt(midder * 1.2f);
+            scaler = Mathf.Sqrt(midder * 3.2f);
         }
         if (this.transform.parent.gameObject.CompareTag("Lows"))
         {
-            scaler = Mathf.Sqrt(lower * 1.1f);
+            scaler = Mathf.Sqrt(lower * 1.6f);
         }
 
         this.transform.localEulerAngles = new Vector3((scaler * x * 25.677f * volume), 0, 0);

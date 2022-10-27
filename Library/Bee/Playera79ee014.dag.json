@@ -156,7 +156,109 @@
         148,
         149,
         150,
-        151
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -294,15 +396,59 @@
       "DebugActionIndex": 12
     },
     {
-      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/ExampleChuckScript.ck",
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/final.wav",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "Assets/StreamingAssets/ExampleChuckScript.ck"
+        "Assets/StreamingAssets/final.wav"
       ],
       "Outputs": [
-        "MicBuild/AudioVisualizer_Data/StreamingAssets/ExampleChuckScript.ck"
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/final.wav"
       ],
       "DebugActionIndex": 13
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/glee.wav",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/glee.wav"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/glee.wav"
+      ],
+      "DebugActionIndex": 14
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/muse.wav",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/muse.wav"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/muse.wav"
+      ],
+      "DebugActionIndex": 15
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/runmic.ck",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/runmic.ck"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/runmic.ck"
+      ],
+      "DebugActionIndex": 16
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/runNarrative.ck",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/runNarrative.ck"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/runNarrative.ck"
+      ],
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/UnityServicesProjectConfiguration.json",
@@ -313,18 +459,1096 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/StreamingAssets/UnityServicesProjectConfiguration.json"
       ],
-      "DebugActionIndex": 14
+      "DebugActionIndex": 18
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/ABSaturator.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/ABSaturator.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/ABSaturator.chug"
+      ],
+      "DebugActionIndex": 19
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/ABSaturator.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/ABSaturator.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/ABSaturator.exp"
+      ],
+      "DebugActionIndex": 20
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/ABSaturator.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/ABSaturator.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/ABSaturator.lib"
+      ],
+      "DebugActionIndex": 21
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/ABSaturator.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/ABSaturator.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/ABSaturator.pdb"
+      ],
+      "DebugActionIndex": 22
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/AmbPan.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/AmbPan.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/AmbPan.chug"
+      ],
+      "DebugActionIndex": 23
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/AmbPan.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/AmbPan.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/AmbPan.exp"
+      ],
+      "DebugActionIndex": 24
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/AmbPan.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/AmbPan.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/AmbPan.lib"
+      ],
+      "DebugActionIndex": 25
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/AmbPan.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/AmbPan.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/AmbPan.pdb"
+      ],
+      "DebugActionIndex": 26
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Binaural.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Binaural.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Binaural.chug"
+      ],
+      "DebugActionIndex": 27
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Binaural.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Binaural.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Binaural.exp"
+      ],
+      "DebugActionIndex": 28
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Binaural.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Binaural.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Binaural.lib"
+      ],
+      "DebugActionIndex": 29
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Binaural.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Binaural.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Binaural.pdb"
+      ],
+      "DebugActionIndex": 30
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Bitcrusher.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Bitcrusher.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Bitcrusher.chug"
+      ],
+      "DebugActionIndex": 31
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Bitcrusher.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Bitcrusher.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Bitcrusher.exp"
+      ],
+      "DebugActionIndex": 32
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Bitcrusher.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Bitcrusher.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Bitcrusher.lib"
+      ],
+      "DebugActionIndex": 33
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Bitcrusher.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Bitcrusher.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Bitcrusher.pdb"
+      ],
+      "DebugActionIndex": 34
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Elliptic.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Elliptic.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Elliptic.chug"
+      ],
+      "DebugActionIndex": 35
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Elliptic.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Elliptic.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Elliptic.exp"
+      ],
+      "DebugActionIndex": 36
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Elliptic.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Elliptic.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Elliptic.lib"
+      ],
+      "DebugActionIndex": 37
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Elliptic.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Elliptic.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Elliptic.pdb"
+      ],
+      "DebugActionIndex": 38
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/ExpDelay.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/ExpDelay.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/ExpDelay.chug"
+      ],
+      "DebugActionIndex": 39
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/ExpDelay.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/ExpDelay.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/ExpDelay.exp"
+      ],
+      "DebugActionIndex": 40
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/ExpDelay.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/ExpDelay.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/ExpDelay.lib"
+      ],
+      "DebugActionIndex": 41
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/ExpDelay.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/ExpDelay.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/ExpDelay.pdb"
+      ],
+      "DebugActionIndex": 42
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/ExpEnv.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/ExpEnv.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/ExpEnv.pdb"
+      ],
+      "DebugActionIndex": 43
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/FIR.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/FIR.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/FIR.chug"
+      ],
+      "DebugActionIndex": 44
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/FIR.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/FIR.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/FIR.exp"
+      ],
+      "DebugActionIndex": 45
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/FIR.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/FIR.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/FIR.lib"
+      ],
+      "DebugActionIndex": 46
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/FIR.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/FIR.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/FIR.pdb"
+      ],
+      "DebugActionIndex": 47
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/FoldbackSaturator.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/FoldbackSaturator.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/FoldbackSaturator.chug"
+      ],
+      "DebugActionIndex": 48
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/FoldbackSaturator.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/FoldbackSaturator.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/FoldbackSaturator.exp"
+      ],
+      "DebugActionIndex": 49
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/FoldbackSaturator.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/FoldbackSaturator.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/FoldbackSaturator.lib"
+      ],
+      "DebugActionIndex": 50
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/FoldbackSaturator.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/FoldbackSaturator.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/FoldbackSaturator.pdb"
+      ],
+      "DebugActionIndex": 51
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/GVerb.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/GVerb.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/GVerb.chug"
+      ],
+      "DebugActionIndex": 52
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/GVerb.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/GVerb.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/GVerb.exp"
+      ],
+      "DebugActionIndex": 53
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/GVerb.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/GVerb.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/GVerb.lib"
+      ],
+      "DebugActionIndex": 54
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/GVerb.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/GVerb.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/GVerb.pdb"
+      ],
+      "DebugActionIndex": 55
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/KasFilter.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/KasFilter.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/KasFilter.chug"
+      ],
+      "DebugActionIndex": 56
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/KasFilter.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/KasFilter.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/KasFilter.exp"
+      ],
+      "DebugActionIndex": 57
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/KasFilter.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/KasFilter.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/KasFilter.lib"
+      ],
+      "DebugActionIndex": 58
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/KasFilter.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/KasFilter.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/KasFilter.pdb"
+      ],
+      "DebugActionIndex": 59
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/MagicSine.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/MagicSine.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/MagicSine.chug"
+      ],
+      "DebugActionIndex": 60
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/MagicSine.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/MagicSine.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/MagicSine.exp"
+      ],
+      "DebugActionIndex": 61
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/MagicSine.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/MagicSine.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/MagicSine.lib"
+      ],
+      "DebugActionIndex": 62
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/MagicSine.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/MagicSine.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/MagicSine.pdb"
+      ],
+      "DebugActionIndex": 63
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Mesh2D.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Mesh2D.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Mesh2D.chug"
+      ],
+      "DebugActionIndex": 64
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Mesh2D.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Mesh2D.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Mesh2D.exp"
+      ],
+      "DebugActionIndex": 65
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Mesh2D.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Mesh2D.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Mesh2D.lib"
+      ],
+      "DebugActionIndex": 66
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Mesh2D.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Mesh2D.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Mesh2D.pdb"
+      ],
+      "DebugActionIndex": 67
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Multicomb.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Multicomb.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Multicomb.chug"
+      ],
+      "DebugActionIndex": 68
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Multicomb.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Multicomb.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Multicomb.exp"
+      ],
+      "DebugActionIndex": 69
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Multicomb.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Multicomb.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Multicomb.lib"
+      ],
+      "DebugActionIndex": 70
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Multicomb.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Multicomb.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Multicomb.pdb"
+      ],
+      "DebugActionIndex": 71
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PanN.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/PanN.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PanN.chug"
+      ],
+      "DebugActionIndex": 72
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PanN.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/PanN.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PanN.exp"
+      ],
+      "DebugActionIndex": 73
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PanN.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/PanN.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PanN.lib"
+      ],
+      "DebugActionIndex": 74
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PanN.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/PanN.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PanN.pdb"
+      ],
+      "DebugActionIndex": 75
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Perlin.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Perlin.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Perlin.chug"
+      ],
+      "DebugActionIndex": 76
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Perlin.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Perlin.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Perlin.exp"
+      ],
+      "DebugActionIndex": 77
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Perlin.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Perlin.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Perlin.lib"
+      ],
+      "DebugActionIndex": 78
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Perlin.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Perlin.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Perlin.pdb"
+      ],
+      "DebugActionIndex": 79
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PitchTrack.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/PitchTrack.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PitchTrack.chug"
+      ],
+      "DebugActionIndex": 80
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PitchTrack.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/PitchTrack.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PitchTrack.exp"
+      ],
+      "DebugActionIndex": 81
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PitchTrack.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/PitchTrack.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PitchTrack.lib"
+      ],
+      "DebugActionIndex": 82
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PitchTrack.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/PitchTrack.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PitchTrack.pdb"
+      ],
+      "DebugActionIndex": 83
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PowerADSR.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/PowerADSR.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PowerADSR.chug"
+      ],
+      "DebugActionIndex": 84
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PowerADSR.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/PowerADSR.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PowerADSR.exp"
+      ],
+      "DebugActionIndex": 85
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PowerADSR.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/PowerADSR.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PowerADSR.lib"
+      ],
+      "DebugActionIndex": 86
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PowerADSR.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/PowerADSR.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/PowerADSR.pdb"
+      ],
+      "DebugActionIndex": 87
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Random.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Random.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Random.chug"
+      ],
+      "DebugActionIndex": 88
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Random.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Random.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Random.exp"
+      ],
+      "DebugActionIndex": 89
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Random.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Random.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Random.lib"
+      ],
+      "DebugActionIndex": 90
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Random.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Random.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Random.pdb"
+      ],
+      "DebugActionIndex": 91
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Sigmund.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Sigmund.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Sigmund.chug"
+      ],
+      "DebugActionIndex": 92
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Sigmund.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Sigmund.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Sigmund.exp"
+      ],
+      "DebugActionIndex": 93
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Sigmund.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Sigmund.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Sigmund.lib"
+      ],
+      "DebugActionIndex": 94
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Sigmund.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Sigmund.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Sigmund.pdb"
+      ],
+      "DebugActionIndex": 95
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Spectacle.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Spectacle.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Spectacle.chug"
+      ],
+      "DebugActionIndex": 96
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Spectacle.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Spectacle.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Spectacle.exp"
+      ],
+      "DebugActionIndex": 97
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Spectacle.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Spectacle.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Spectacle.lib"
+      ],
+      "DebugActionIndex": 98
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Spectacle.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Spectacle.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Spectacle.pdb"
+      ],
+      "DebugActionIndex": 99
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Wavetable.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Wavetable.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Wavetable.chug"
+      ],
+      "DebugActionIndex": 100
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Wavetable.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Wavetable.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Wavetable.exp"
+      ],
+      "DebugActionIndex": 101
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Wavetable.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Wavetable.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Wavetable.lib"
+      ],
+      "DebugActionIndex": 102
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Wavetable.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/Wavetable.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/Wavetable.pdb"
+      ],
+      "DebugActionIndex": 103
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WinFuncEnv.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/WinFuncEnv.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WinFuncEnv.chug"
+      ],
+      "DebugActionIndex": 104
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WinFuncEnv.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/WinFuncEnv.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WinFuncEnv.exp"
+      ],
+      "DebugActionIndex": 105
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WinFuncEnv.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/WinFuncEnv.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WinFuncEnv.lib"
+      ],
+      "DebugActionIndex": 106
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WinFuncEnv.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/WinFuncEnv.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WinFuncEnv.pdb"
+      ],
+      "DebugActionIndex": 107
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WPDiodeLadder.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/WPDiodeLadder.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WPDiodeLadder.chug"
+      ],
+      "DebugActionIndex": 108
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WPDiodeLadder.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/WPDiodeLadder.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WPDiodeLadder.exp"
+      ],
+      "DebugActionIndex": 109
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WPDiodeLadder.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/WPDiodeLadder.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WPDiodeLadder.lib"
+      ],
+      "DebugActionIndex": 110
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WPDiodeLadder.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/WPDiodeLadder.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WPDiodeLadder.pdb"
+      ],
+      "DebugActionIndex": 111
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WPKorg35.chug",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/WPKorg35.chug"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WPKorg35.chug"
+      ],
+      "DebugActionIndex": 112
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WPKorg35.exp",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/WPKorg35.exp"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WPKorg35.exp"
+      ],
+      "DebugActionIndex": 113
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WPKorg35.lib",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/WPKorg35.lib"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WPKorg35.lib"
+      ],
+      "DebugActionIndex": 114
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WPKorg35.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/Chugins/Release/WPKorg35.pdb"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/Chugins/Release/WPKorg35.pdb"
+      ],
+      "DebugActionIndex": 115
+    },
+    {
+      "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/StreamingAssets/data/muse.wav",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/StreamingAssets/data/muse.wav"
+      ],
+      "Outputs": [
+        "MicBuild/AudioVisualizer_Data/StreamingAssets/data/muse.wav"
+      ],
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Plugins/x86_64/AudioPluginChuck.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "Assets/Chunity/Plugins/x86_64/AudioPluginChuck.dll"
+        "Assets/Plugins/x86_64/AudioPluginChuck.dll"
       ],
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Plugins/x86_64/AudioPluginChuck.dll"
       ],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/Assembly-CSharp.dll",
@@ -335,7 +1559,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/Assembly-CSharp.dll"
       ],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/Mono.Security.dll",
@@ -346,7 +1570,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/mscorlib.dll",
@@ -357,7 +1581,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/netstandard.dll",
@@ -368,7 +1592,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/Newtonsoft.Json.dll",
@@ -379,7 +1603,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/Newtonsoft.Json.dll"
       ],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/System.ComponentModel.Composition.dll",
@@ -390,7 +1614,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/System.Configuration.dll",
@@ -401,7 +1625,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/System.Core.dll",
@@ -412,7 +1636,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -423,7 +1647,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/System.Data.dll",
@@ -434,7 +1658,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/System.dll",
@@ -445,7 +1669,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/System.Drawing.dll",
@@ -456,7 +1680,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/System.EnterpriseServices.dll",
@@ -467,7 +1691,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/System.IO.Compression.dll",
@@ -478,7 +1702,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -489,7 +1713,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/System.Net.Http.dll",
@@ -500,7 +1724,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/System.Numerics.dll",
@@ -511,7 +1735,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/System.Runtime.Serialization.dll",
@@ -522,7 +1746,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/System.Security.dll",
@@ -533,7 +1757,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/System.ServiceModel.Internals.dll",
@@ -544,7 +1768,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/System.Transactions.dll",
@@ -555,7 +1779,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/System.Xml.dll",
@@ -566,7 +1790,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/System.Xml.Linq.dll",
@@ -577,7 +1801,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Analytics.dll",
@@ -588,7 +1812,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Analytics.dll"
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Configuration.dll",
@@ -599,7 +1823,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Configuration.dll"
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Device.dll",
@@ -610,7 +1834,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Device.dll"
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.dll",
@@ -621,7 +1845,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.dll"
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Environments.dll",
@@ -632,7 +1856,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Environments.dll"
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Environments.Internal.dll",
@@ -643,7 +1867,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Environments.Internal.dll"
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Internal.dll",
@@ -654,7 +1878,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Internal.dll"
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Networking.dll",
@@ -665,7 +1889,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Networking.dll"
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Registration.dll",
@@ -676,7 +1900,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Registration.dll"
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Scheduler.dll",
@@ -687,7 +1911,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Scheduler.dll"
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Telemetry.dll",
@@ -698,7 +1922,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Telemetry.dll"
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Threading.dll",
@@ -709,7 +1933,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/Unity.Services.Core.Threading.dll"
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/Unity.TextMeshPro.dll",
@@ -720,7 +1944,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/Unity.Timeline.dll",
@@ -731,7 +1955,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -742,7 +1966,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/Unity.VisualScripting.Core.dll",
@@ -753,7 +1977,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/Unity.VisualScripting.Core.dll"
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -764,7 +1988,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/Unity.VisualScripting.Flow.dll"
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/Unity.VisualScripting.State.dll",
@@ -775,7 +1999,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/Unity.VisualScripting.State.dll"
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -786,7 +2010,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.AccessibilityModule.dll"
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.AIModule.dll",
@@ -797,7 +2021,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.AIModule.dll"
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -808,7 +2032,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.AndroidJNIModule.dll"
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.AnimationModule.dll",
@@ -819,7 +2043,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.AnimationModule.dll"
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.ARModule.dll",
@@ -830,7 +2054,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.ARModule.dll"
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -841,7 +2065,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.AssetBundleModule.dll"
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.AudioModule.dll",
@@ -852,7 +2076,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.AudioModule.dll"
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.ClothModule.dll",
@@ -863,7 +2087,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.ClothModule.dll"
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -874,7 +2098,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.ClusterInputModule.dll"
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 167
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -885,7 +2109,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.ClusterRendererModule.dll"
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 168
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.CoreModule.dll",
@@ -896,7 +2120,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.CoreModule.dll"
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 169
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -907,7 +2131,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.CrashReportingModule.dll"
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 170
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.DirectorModule.dll",
@@ -918,7 +2142,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.DirectorModule.dll"
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 171
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.dll",
@@ -929,7 +2153,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.dll"
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 172
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -940,7 +2164,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.DSPGraphModule.dll"
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 173
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -951,7 +2175,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.GameCenterModule.dll"
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 174
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.GIModule.dll",
@@ -962,7 +2186,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.GIModule.dll"
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 175
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.GridModule.dll",
@@ -973,7 +2197,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.GridModule.dll"
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 176
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -984,7 +2208,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.HotReloadModule.dll"
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 177
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -995,7 +2219,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.ImageConversionModule.dll"
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 178
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -1006,7 +2230,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.IMGUIModule.dll"
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 179
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -1017,7 +2241,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.InputLegacyModule.dll"
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 180
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.InputModule.dll",
@@ -1028,7 +2252,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.InputModule.dll"
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 181
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -1039,7 +2263,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.JSONSerializeModule.dll"
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 182
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -1050,7 +2274,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.LocalizationModule.dll"
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 183
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.NVIDIAModule.dll",
@@ -1061,7 +2285,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.NVIDIAModule.dll"
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 184
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -1072,7 +2296,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.ParticleSystemModule.dll"
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 185
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -1083,7 +2307,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 186
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -1094,7 +2318,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.Physics2DModule.dll"
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 187
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -1105,7 +2329,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.PhysicsModule.dll"
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 188
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.ProfilerModule.dll",
@@ -1116,7 +2340,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.ProfilerModule.dll"
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 189
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -1127,7 +2351,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 190
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -1138,7 +2362,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 191
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -1149,7 +2373,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.SharedInternalsModule.dll"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 192
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -1160,7 +2384,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.SpriteMaskModule.dll"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 193
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -1171,7 +2395,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.SpriteShapeModule.dll"
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 194
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.StreamingModule.dll",
@@ -1182,7 +2406,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.StreamingModule.dll"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 195
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -1193,7 +2417,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.SubstanceModule.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 196
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -1204,7 +2428,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.SubsystemsModule.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 197
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.TerrainModule.dll",
@@ -1215,7 +2439,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.TerrainModule.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 198
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -1226,7 +2450,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 199
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -1237,7 +2461,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 200
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -1248,7 +2472,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 201
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -1259,7 +2483,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.TextRenderingModule.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 202
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.TilemapModule.dll",
@@ -1270,7 +2494,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.TilemapModule.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 203
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.TLSModule.dll",
@@ -1281,7 +2505,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.TLSModule.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 204
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UI.dll",
@@ -1292,7 +2516,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UI.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 205
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -1303,7 +2527,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UIElementsModule.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 206
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UIElementsNativeModule.dll",
@@ -1314,7 +2538,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UIElementsNativeModule.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 207
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UIModule.dll",
@@ -1325,7 +2549,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UIModule.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 208
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UmbraModule.dll",
@@ -1336,7 +2560,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UmbraModule.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 209
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UNETModule.dll",
@@ -1347,7 +2571,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UNETModule.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 210
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -1358,7 +2582,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 211
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -1369,7 +2593,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UnityConnectModule.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 212
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -1380,7 +2604,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UnityCurlModule.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 213
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -1391,7 +2615,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 214
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -1402,7 +2626,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 215
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -1413,7 +2637,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 216
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -1424,7 +2648,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 217
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -1435,7 +2659,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 218
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -1446,7 +2670,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 219
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -1457,7 +2681,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.VehiclesModule.dll"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 220
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.VFXModule.dll",
@@ -1468,7 +2692,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.VFXModule.dll"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 221
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.VideoModule.dll",
@@ -1479,7 +2703,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.VideoModule.dll"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 222
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -1490,7 +2714,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 223
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.VRModule.dll",
@@ -1501,7 +2725,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.VRModule.dll"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 224
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.WindModule.dll",
@@ -1512,7 +2736,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.WindModule.dll"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 225
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Managed/UnityEngine.XRModule.dll",
@@ -1523,7 +2747,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Managed/UnityEngine.XRModule.dll"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 226
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
@@ -1534,7 +2758,7 @@
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 125
+      "DebugActionIndex": 227
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/app.info",
@@ -1546,9 +2770,9 @@
         "MicBuild/AudioVisualizer_Data/app.info"
       ],
       "ToBuildDependencies": [
-        125
+        227
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 228
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer_Data/Resources/unity default resources",
@@ -1559,7 +2783,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 229
     },
     {
       "Annotation": "CopyFiles MicBuild/AudioVisualizer.exe",
@@ -1570,7 +2794,7 @@
       "Outputs": [
         "MicBuild/AudioVisualizer.exe"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 230
     },
     {
       "Annotation": "CopyFiles MicBuild/UnityCrashHandler64.exe",
@@ -1581,7 +2805,7 @@
       "Outputs": [
         "MicBuild/UnityCrashHandler64.exe"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 231
     },
     {
       "Annotation": "CopyFiles MicBuild/UnityPlayer.dll",
@@ -1592,7 +2816,7 @@
       "Outputs": [
         "MicBuild/UnityPlayer.dll"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 232
     },
     {
       "Annotation": "CopyFiles MicBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -1603,7 +2827,7 @@
       "Outputs": [
         "MicBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 233
     },
     {
       "Annotation": "CopyFiles MicBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -1614,7 +2838,7 @@
       "Outputs": [
         "MicBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 234
     },
     {
       "Annotation": "CopyFiles MicBuild/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -1625,7 +2849,7 @@
       "Outputs": [
         "MicBuild/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 235
     },
     {
       "Annotation": "CopyFiles MicBuild/MonoBleedingEdge/etc/mono/config",
@@ -1636,7 +2860,7 @@
       "Outputs": [
         "MicBuild/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 236
     },
     {
       "Annotation": "CopyFiles MicBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -1647,7 +2871,7 @@
       "Outputs": [
         "MicBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 237
     },
     {
       "Annotation": "CopyFiles MicBuild/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -1658,7 +2882,7 @@
       "Outputs": [
         "MicBuild/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 238
     },
     {
       "Annotation": "CopyFiles MicBuild/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -1669,7 +2893,7 @@
       "Outputs": [
         "MicBuild/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 239
     },
     {
       "Annotation": "CopyFiles MicBuild/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -1680,7 +2904,7 @@
       "Outputs": [
         "MicBuild/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 240
     },
     {
       "Annotation": "CopyFiles MicBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -1691,7 +2915,7 @@
       "Outputs": [
         "MicBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 241
     },
     {
       "Annotation": "CopyFiles MicBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -1702,7 +2926,7 @@
       "Outputs": [
         "MicBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 242
     },
     {
       "Annotation": "CopyFiles MicBuild/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -1713,7 +2937,7 @@
       "Outputs": [
         "MicBuild/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 243
     },
     {
       "Annotation": "CopyFiles MicBuild/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -1724,7 +2948,7 @@
       "Outputs": [
         "MicBuild/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 244
     },
     {
       "Annotation": "CopyFiles MicBuild/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -1735,7 +2959,7 @@
       "Outputs": [
         "MicBuild/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 245
     },
     {
       "Annotation": "CopyFiles MicBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -1746,7 +2970,7 @@
       "Outputs": [
         "MicBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 246
     },
     {
       "Annotation": "CopyFiles MicBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -1757,7 +2981,7 @@
       "Outputs": [
         "MicBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 247
     },
     {
       "Annotation": "CopyFiles MicBuild/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -1768,7 +2992,7 @@
       "Outputs": [
         "MicBuild/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 248
     },
     {
       "Annotation": "CopyFiles MicBuild/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -1779,7 +3003,7 @@
       "Outputs": [
         "MicBuild/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 249
     },
     {
       "Annotation": "CopyFiles MicBuild/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -1790,7 +3014,7 @@
       "Outputs": [
         "MicBuild/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 250
     },
     {
       "Annotation": "CopyFiles MicBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -1801,7 +3025,7 @@
       "Outputs": [
         "MicBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 149
+      "DebugActionIndex": 251
     },
     {
       "Annotation": "CopyFiles MicBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -1812,7 +3036,7 @@
       "Outputs": [
         "MicBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 252
     },
     {
       "Annotation": "Player",
@@ -1944,6 +3168,7 @@
         122,
         123,
         124,
+        125,
         126,
         127,
         128,
@@ -1968,10 +3193,111 @@
         147,
         148,
         149,
-        150
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 151
+      "DebugActionIndex": 253
     }
   ],
   "FileSignatures": [
@@ -2092,7 +3418,7 @@
   ],
   "StatSignatures": [
     {
-      "File": "Assets/Chunity/Plugins/x86_64/AudioPluginChuck.dll"
+      "File": "Assets/Plugins/x86_64/AudioPluginChuck.dll"
     },
     {
       "File": "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
@@ -2177,7 +3503,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 151
+          "Player": 253
         }
 ,  "DefaultNodes": [
     0

@@ -21,7 +21,7 @@ public class Grid : MonoBehaviour
     private float freqScaling;
     void Update()
     {
-        float[] wf = AudioInput.waveform;
+        float[] wf = ChunityAudioInput.the_waveform;
         float volume = wf.Max() - wf.Min();
         if (volume < 0.1)
         {
@@ -51,8 +51,6 @@ public class Grid : MonoBehaviour
 
             mesh.vertices = vertices;
         }
-        GetComponent<MeshCollider>().sharedMesh = null;
-        GetComponent<MeshCollider>().sharedMesh = mesh;
     }
 
     private Vector3[] vertices;
@@ -90,8 +88,6 @@ public class Grid : MonoBehaviour
         }
         mesh.triangles = triangles;
         mesh.RecalculateNormals();
-        GetComponent<MeshCollider>().sharedMesh = null;
-        GetComponent<MeshCollider>().sharedMesh = mesh;
     }
 
     private void OnDrawGizmos()

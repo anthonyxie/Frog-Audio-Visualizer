@@ -1,0 +1,1 @@
+adc => Gain g => dac; while( true ) 1::second => now;

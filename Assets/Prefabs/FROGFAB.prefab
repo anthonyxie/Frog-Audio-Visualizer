@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6196998382168865100}
   - component: {fileID: 6352419713872875618}
   - component: {fileID: 7640980584517415247}
-  - component: {fileID: 4126258110003128681}
   m_Layer: 0
   m_Name: Procedural Mesh Plane
   m_TagString: Untagged
@@ -103,20 +102,6 @@ MonoBehaviour:
   yOffset: 0
   xScale: 0.03
   yScale: 0.05
---- !u!64 &4126258110003128681
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 543350584245473008}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &668352922815754505
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,7 +197,6 @@ GameObject:
   - component: {fileID: 8119678877977735655}
   - component: {fileID: 2417973208297550145}
   - component: {fileID: 7742401934402574537}
-  - component: {fileID: 283568298842431576}
   m_Layer: 0
   m_Name: Procedural Mesh Plane (1)
   m_TagString: Untagged
@@ -303,20 +287,6 @@ MonoBehaviour:
   yOffset: 0
   xScale: 0.03
   yScale: 0.05
---- !u!64 &283568298842431576
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1856858074681566122}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &2132899891036342826
 GameObject:
   m_ObjectHideFlags: 0

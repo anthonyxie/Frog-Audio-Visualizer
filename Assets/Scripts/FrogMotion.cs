@@ -15,7 +15,7 @@ public class FrogMotion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float[] spectrum = AudioInput.spectrum;
+        float[] spectrum = ChunityAudioInput.the_spectrum;
         float height = spectrum.Sum();
         if (this.gameObject.CompareTag("Highs")) {
             this.transform.localPosition = new Vector3(this.transform.localPosition.x,  1.71f + OceanGrid.midvolumeHeight * 1.1f, this.transform.localPosition.z);
